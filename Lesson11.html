@@ -1,0 +1,85 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+    <title>Lesson 11</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        #grid {
+            background-color: lawngreen;
+            display: grid;
+            padding: 20px;
+            grid-column: 20px;
+            grid-row-gap: 10px;
+            grid-template-columns: 200px 200px auto;
+        }
+
+        .grid-item {
+            background-color: lightpink;
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #grid2 {
+            background-color: skyblue;
+            display: grid;
+            padding: 20px;
+            grid-column: 20px;
+            grid-row-gap: 10px;
+            grid-template-columns: auto auto auto auto;
+        }
+
+        .grid-item2 {
+            background-color: lightslategray;
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="home"><a href="hello.html">Lesson on HTML5</a></h1>
+    <h1>Lesson 11 - grid layout</h1>
+    
+    example 1 - column 1 and 2 @ 200px width, column 3 auto<br>
+    slide explorer to witness<br>
+    <div id="grid">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item">10</div>
+        <div class="grid-item">11</div>
+        <div class="grid-item">12</div>
+    </div>
+    <br>
+    example 2 - column width auto<br>
+    slide explorer to witness<br>
+    <div id="grid2">
+        <div class="grid-item2">1</div>
+        <div class="grid-item2">2</div>
+        <div class="grid-item2">3</div>
+        <div class="grid-item2">4</div>
+        <div class="grid-item2">5</div>
+        <div class="grid-item2">6</div>
+        <div class="grid-item2">7</div>
+        <div class="grid-item2">8</div>
+        <div class="grid-item2">9</div>
+        <div class="grid-item2">10</div>
+        <div class="grid-item2">11</div>
+        <div class="grid-item2">12</div>
+
+    </div>
+
+</body>
+
+
+</html>
